@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/b10" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="208dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Password"
+        android:textSize="17dip"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="129dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="UserName"
+        android:textSize="17dip"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="242dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/textUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="164dp"
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="376dp"
+        
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/checkerr"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="386dp"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text=" "
+        android:textSize="17dip" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_x="4dp"
+        android:layout_y="68dp"
+        android:text="UserType"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="17dip"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="59dp"
+        android:entries="@array/user_array" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="178dp"
+        android:layout_y="432dp"
+        android:text="Forgot Password ?"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/gas"
+        android:layout_width="148dp"
+        android:layout_height="89dp"
+        android:layout_x="98dp"
+        android:layout_y="328dp"
+        android:src="@drawable/lg" />
+
+</AbsoluteLayout>

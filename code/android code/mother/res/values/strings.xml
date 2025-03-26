@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mother</string>
+     <string name="login_page">login</string>
+      <string name="mother_page">mother page</string>
+       <string name="admin_page">admin</string>
+       <string name="fpworker_page">fp worker</string>
+       <string name="physician_page">physician</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="user_prompt">Choose a user</string>
+     <string name="radio_male">Male</string>
+     <string name="radio_female">Female</string>
+      <string name="radio_single">single</string>
+     <string name="radio_married">married</string>
+
+    <string-array name="user_array">
+        <item>mother</item>
+        <item>admin</item>
+        <item>fp worker</item>
+        <item>physician</item>
+        
+    </string-array>
+    <string-array name="sex_array">
+        <item>male</item>
+        <item>female</item>          
+    </string-array>
+    <string-array name="marital_array">
+        <item>single</item>
+        <item>married</item>
+        
+        
+    </string-array>
+<string-array name="usertype_array">
+        <item>mother</item>
+        <item>admin</item>
+        <item>fp worker</item>
+        <item>physician</item>
+        
+    </string-array>
+</resources>
